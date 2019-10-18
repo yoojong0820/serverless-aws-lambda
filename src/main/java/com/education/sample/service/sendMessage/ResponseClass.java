@@ -1,4 +1,4 @@
-package com.eduction.sample.service.sendMessage;
+package com.education.sample.service.sendMessage;
 
 public class ResponseClass {
 

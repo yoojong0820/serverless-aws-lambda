@@ -1,4 +1,4 @@
-package com.eduction.sample.service.sendMessage;
+package com.education.sample.service.sendMessage;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
