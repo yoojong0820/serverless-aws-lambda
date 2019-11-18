@@ -54,7 +54,10 @@ public class AuroraProcessor {
                 columns.add(resultSetMetaData.getColumnName(i));
             }
             return populateResultSet(resultSet, columns);
-        } catch (SQLException | ClassNotFoundException e) { return new ArrayList<>(); }
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+            return new ArrayList<>();
+        }
     }
 
     private String buildConnectionUrl() {
